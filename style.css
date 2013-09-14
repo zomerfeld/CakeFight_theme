@@ -927,7 +927,7 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .logo {
-	position:absolute;
+	position:fixed;
 	left:0px;
 	max-width:300px;
 }
@@ -2840,8 +2840,7 @@ footer.entry-meta {
 		font: FontAwesome;
 		content: "\f103";
 		vertical-align: -3px;
-		-webkit-transform: scale(2)
-		
+		-webkit-transform: scale(1.2)
 	}
 
 

@@ -31,6 +31,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<img id="logo" class="animated logo" src="/wordpress/wp-content/uploads/2013/09/logo_draft_1_cmass_500.png" alt="logo"/>
 	<div id="page" class="hfeed site">
 	<!--	<header id="masthead" class="site-header" role="banner">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -42,7 +43,6 @@
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<img id="logo" class="animated logo" src="/wordpress/wp-content/uploads/2013/09/logo_draft_1_cmass_500.png" alt="logo"/>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>				
 				</nav><!-- #site-navigation -->
