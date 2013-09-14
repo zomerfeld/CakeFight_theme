@@ -1250,15 +1250,16 @@ footer.entry-meta {
 
 .gallery {
 	margin-bottom: 20px;
-	margin-left: 10%;
-	margin-right: 10%;
+	padding-left: 10%;
+	padding-right: auto;
 	position:relative;
+
 	
 }
 
 .gallery-item {
 	float: left;
-	margin: 0 4px 4px 0;
+	margin: 1%;
 	overflow: hidden;
 	position: relative;
 }
@@ -1285,8 +1286,8 @@ footer.entry-meta {
 
 .gallery-columns-5 .gallery-item {
 	max-width: 19%;
-	max-width: -webkit-calc(20% - 4px);
-	max-width:         calc(20% - 4px);
+	max-width: -webkit-calc(20% - 10px);
+	max-width:         calc(20% - 10px); 
 }
 
 .gallery-columns-6 .gallery-item {
@@ -1364,6 +1365,8 @@ footer.entry-meta {
 .gallery-columns-9 .gallery-caption {
 	display: none;
 }
+
+
 
 
 /**
@@ -2751,6 +2754,10 @@ footer.entry-meta {
 	.sidebar .site-footer .widget-area {
 		max-width: 100%;
 		left: 0;
+	}
+	
+	.gallery-item {
+		margin:0.5%;
 	}
 }
 
