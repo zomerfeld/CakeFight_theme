@@ -2,3 +2,8 @@ Colors
 Black
 White
 #404040 - Grey
+
+
+Plugins:
+Easy Fancybox
+Carousel without jetpack - deactivated but good backup
