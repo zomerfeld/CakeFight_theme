@@ -930,7 +930,6 @@ ul.nav-menu li:hover > ul,
 	position:absolute;
 	left:0px;
 	max-width:300px;
-	margin-top:-215px;
 }
 
 .logo:hover {
@@ -2817,7 +2816,7 @@ footer.entry-meta {
 
 	.logo {
 	height:90px;
-	margin-top:-90px;
+	margin-top:0px;
 	}
 
 	/* Small menu */
@@ -2844,6 +2843,8 @@ footer.entry-meta {
 		-webkit-transform: scale(2)
 		
 	}
+
+
 
 	.toggled-on .nav-menu,
 	.toggled-on .nav-menu > ul {
