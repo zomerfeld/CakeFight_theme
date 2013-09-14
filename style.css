@@ -9,6 +9,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
 Text Domain: CakeFight
+Template:twentythirteen
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -110,6 +111,7 @@ body {
 	color: #141412;
 	line-height: 1.5;
 	margin: 0;
+	background-color:black;
 }
 
 a {
@@ -808,7 +810,7 @@ img.wp-smiley,
 	color: #141412;
 	display: block;
 	margin: 0 auto;
-	max-width: 1080px;
+	max-width: 992px;
 	min-height: 230px;
 	padding: 0 20px;
 	text-decoration: none;
@@ -842,7 +844,7 @@ img.wp-smiley,
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
-	max-width: 1080px;
+	max-width: 992px;
 	min-height: 45px;
 	position: relative;
 }
@@ -860,7 +862,7 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #141412;
+	color: white;
 	display: block;
 	font-size: 15px;
 	line-height: 1;
@@ -870,7 +872,7 @@ div.nav-menu > ul {
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-	background-color: #220e10;
+	background-color: #404040;
 	color: #fff;
 }
 
@@ -914,8 +916,7 @@ ul.nav-menu li:hover > ul,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #bc360a;
-	font-style: italic;
+	color: red;
 }
 
 .menu-toggle {
@@ -929,8 +930,16 @@ ul.nav-menu li:hover > ul,
 	width: 300px;
 }
 
+.logo:hover {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-o-animation-name: pulse;
+	animation-name: pulse;
+}
+
+
 .navbar {
-	background-color: #f7f5e7;
+	background-color: black;
 	margin: 0 auto;
 	max-width: 1600px;
 	height: 215px;
@@ -976,7 +985,7 @@ ul.nav-menu li:hover > ul,
  */
 
 .hentry {
-	padding: 40px 0;
+	padding: 40px 0 0 0;
 }
 
 .entry-header,
@@ -984,7 +993,7 @@ ul.nav-menu li:hover > ul,
 .entry-summary,
 .entry-meta {
 	margin: 0 auto;
-	max-width: 604px;
+	max-width: 992px;
 	width: 100%;
 }
 
@@ -1208,7 +1217,7 @@ footer.entry-meta {
 /* Mediaelements */
 .hentry .mejs-mediaelement,
 .hentry .mejs-container .mejs-controls {
-	background: #220e10;
+	background: black;
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
@@ -1359,7 +1368,7 @@ footer.entry-meta {
 
 /* Aside */
 .format-aside {
-	background-color: #f7f5e7;
+	 background-color: black;
 }
 
 .blog .format-aside:first-of-type,
@@ -1507,7 +1516,7 @@ footer.entry-meta {
 
 /* Link */
 .format-link {
-	background-color: #f7f5e7;
+	background-color: black;
 }
 
 .blog .format-link:first-of-type,
@@ -1542,7 +1551,7 @@ footer.entry-meta {
 
 .format-quote .entry-content,
 .format-quote .entry-meta {
-	color: #f7f5e7;
+	color: black;
 }
 
 .format-quote .entry-content blockquote {
@@ -1610,7 +1619,7 @@ footer.entry-meta {
 }
 
 .format-status .entry-meta a {
-	color: #f7f5e7;
+	color: black;
 }
 
 .sidebar .format-status .entry-content,
@@ -1647,7 +1656,7 @@ footer.entry-meta {
 }
 
 .format-status .entry-content {
-	color: #f7f5e7;
+	color: black;
 	font-size: 24px;
 	font-style: italic;
 	font-weight: 300;
@@ -2242,7 +2251,7 @@ footer.entry-meta {
 
 /* Comment form */
 .comment-respond {
-	background-color: #f7f5e7;
+	background-color: black;
 	padding: 30px 0;
 }
 
@@ -2340,7 +2349,7 @@ footer.entry-meta {
 }
 
 .no-comments {
-	background-color: #f7f5e7;
+	background-color: black;
 	font-size: 20px;
 	font-style: italic;
 	font-weight: 300;
@@ -2506,8 +2515,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
+	background-color: black;
+	color: White;
 	font-size: 14px;
 	text-align: center;
 }
@@ -2522,7 +2531,7 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: #220e10;
+	background-color: black;
 	padding: 20px 0;
 }
 
@@ -3129,3 +3138,67 @@ footer.entry-meta {
 		color: #333;
 	}
 }
+
+
+/**
+ * 10.0 Noam's additions
+ * ----------------------------------------------------------------------------
+ */
+
+.col42 {
+	width:42%;
+	padding:0 10pt 0 20pt;
+	float:right;
+	text-align:center;
+	
+}
+
+.col58 {
+	width:58%;
+	padding:0 20pt 0 0;
+	float:left;
+}
+
+.animated{	animation-delay:0.2s;
+			-webkit-animation-delay:0.2s;
+			-moz-animation-delay:0.2s;
+			-ms-animation-delay:0.2s;
+			-o-animation-delay:0.2s;
+			animation-iteration-count:2;
+			-webkit-animation-iteration-count:2;
+			-moz-animation-iteration-count:2;
+			-ms-animation-iteration-count:2;
+			-o-animation-iteration-count:2;
+			-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }	
+    25% { -webkit-transform: scale(1.1); }
+    35% { -webkit-transform: scale(1); }
+    60% { -webkit-transform: scale(1.2); }
+    100% { -webkit-transform: scale(1); }
+
+}
+@-moz-keyframes pulse {
+    0% { -webkit-transform: scale(1); }	
+    25% { -webkit-transform: scale(1.1); }
+    35% { -webkit-transform: scale(1); }
+    60% { -webkit-transform: scale(1.2); }
+    100% { -webkit-transform: scale(1); }
+
+}
+@-o-keyframes pulse {
+    0% { -webkit-transform: scale(1); }	
+    25% { -webkit-transform: scale(1.1); }
+    35% { -webkit-transform: scale(1); }
+    60% { -webkit-transform: scale(1.2); }
+    100% { -webkit-transform: scale(1); }
+
+}
+@keyframes pulse {
+    0% { -webkit-transform: scale(1); }	
+    25% { -webkit-transform: scale(1.1); }
+    35% { -webkit-transform: scale(1); }
+    60% { -webkit-transform: scale(1.2); }
+    100% { -webkit-transform: scale(1); }
+
+}
+

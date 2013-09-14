@@ -40,7 +40,7 @@
 	-->
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-				<img id="logo" class=logo src="/wordpress/wp-content/uploads/2013/09/logo_draft_1_cmass_300.png" alt="logo " width="300" />
+				<img id="logo" class="animated logo" src="/wordpress/wp-content/uploads/2013/09/logo_draft_1_cmass_500.png" alt="logo " width="300" />
 					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
