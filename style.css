@@ -927,9 +927,10 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .logo {
-	position:fixed;
+	position:absolute;
 	left:0px;
 	max-width:300px;
+	
 }
 
 .logo:hover {
