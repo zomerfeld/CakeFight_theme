@@ -11,7 +11,21 @@
  */
 ?>
 		<footer id="colophon" class="site-footer" role="contentinfo">
-		<p>CakeFight</p>
+		<div class="main-navigation">	
+		<div class="social">
+			<p>	<a href="https://www.facebook.com/eatcakefight" ><i class="icon-facebook-sign"></i> </a>
+				<a href="https://twitter.com/cakefight" ><i class="icon-twitter"></i> </a>
+				<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><i class="icon-pinterest-sign"></i> </a>
+			</p>
+		</div>
+		<div class="email">
+			<a href="mailto:order@cakefightoakland.com"><p>order@cakefightoakland.com</p></a>
+		</div>
+		<div class="email2"> <a href="mailto:order@cakefightoakland.com" target="_blank"><i class="icon-envelope"></i> </a> </div>
+		<div class="phone">
+			<p>510-502-0597</p>
+		</div>
+		</div>
 		</footer><!-- #colophon -->
 
 		<?php wp_footer(); ?>

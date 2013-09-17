@@ -1,8 +1,9 @@
 Colors
 Black
 White
+Red
 #404040 - Grey
-
+#5b5b5b - lighter grey
 
 Plugins:
 Easy Fancybox

@@ -153,16 +153,32 @@ h6 {
 h1 {
 	font-size: 48px;
 	margin: 33px 0;
+	break-after:avoid;
+	-webkit-column-break-after:avoid;
+	-moz-column-break-after:avoid;
+	-o-column-break-after:avoid;
+	-ms-column-break-after:avoid;
 }
 
 h2 {
 	font-size: 30px;
 	margin: 25px 0;
+	break-after:avoid;
+	-webkit-column-break-after:avoid;
+	-moz-column-break-after:avoid;
+	-o-column-break-after:avoid;
+	-ms-column-break-after:avoid;
 }
 
 h3 {
 	font-size: 22px;
 	margin: 22px 0;
+	break-after:avoid;
+	-webkit-column-break-after:avoid;
+	-moz-column-break-after:avoid;
+	-o-column-break-after:avoid;
+	-ms-column-break-after:avoid;
+
 }
 
 h4 {
@@ -205,6 +221,13 @@ mark {
 
 p {
 	margin: 0 0 24px;
+	break-inside:avoid;
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	
+	
 }
 
 code,
@@ -666,6 +689,7 @@ input[type="reset"]:active {
 .widget img,
 .wp-caption {
 	max-width: 100%;
+	padding-right:10%;
 }
 
 /* Make sure images with WordPress-added height and width attributes are scaled correctly. */
@@ -930,6 +954,7 @@ ul.nav-menu li:hover > ul,
 	position:absolute;
 	left:0px;
 	max-width:300px;
+	z-index:2;
 	
 }
 
@@ -985,7 +1010,61 @@ ul.nav-menu li:hover > ul,
  * 5.0 Content
  * ----------------------------------------------------------------------------
  */
+/**
+ * 5.X Noam's additions
+ * ----------------------------------------------------------------------------
+ */
 
+.col42 {
+	width:40%;
+	padding:0 0 0 5%;
+	float:right;
+	text-align:center;
+	margin-right:2%;
+	
+}
+
+.col58 {
+	width:58%;
+	padding:0 5% 0 0%;
+	float:left;
+}
+
+.col100 {
+	width:100%;
+	padding:0 5% 0 0%;
+	float:left;
+}
+.foodmenu {
+	-webkit-column-count:2;
+	-webkit-column-gap:60px;
+	column-count:2;
+	column-gap:60px;
+	-moz-column-count:2;
+	-moz-column-gap:40px;
+	padding-right:40px;
+	
+}
+
+.foodmenu > *:first-child { margin-top: 0; }
+/*removes the weird margin on first column */
+
+	
+.page {
+/*	background-color:black; */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 37%, rgba(214,214,214,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(37%,rgba(66,66,66,1)), color-stop(100%,rgba(214,214,214,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(66,66,66,1) 37%,rgba(214,214,214,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(66,66,66,1) 37%,rgba(214,214,214,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(66,66,66,1) 37%,rgba(214,214,214,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(66,66,66,1) 37%,rgba(214,214,214,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#d6d6d6',GradientType=0 ); /* IE6-9 */
+
+}
+
+* ----------------------------------------------------------------------------
+ */
 .hentry {
 	padding: 40px 0 0 0;
 }
@@ -994,9 +1073,11 @@ ul.nav-menu li:hover > ul,
 .entry-content,
 .entry-summary,
 .entry-meta {
-	margin: 0 auto;
+	padding: 20px 0 0 4%;
 	max-width: 992px;
 	width: 100%;
+	background-color:white;
+	margin-left: auto; margin-right: auto;
 }
 
 .sidebar .entry-header,
@@ -1023,7 +1104,7 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-header {
-	margin-bottom: 30px;
+/*	margin-bottom: 30px; */
 }
 
 .entry-title {
@@ -1125,6 +1206,7 @@ ul.nav-menu li:hover > ul,
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	word-wrap: break-word;
+	margin-left: auto; margin-right: auto;
 }
 
 .entry-content a,
@@ -1250,8 +1332,8 @@ footer.entry-meta {
 
 .gallery {
 	margin-bottom: 20px;
-	padding-left: 10%;
-	padding-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
 	position:relative;
 
 	
@@ -1366,7 +1448,9 @@ footer.entry-meta {
 	display: none;
 }
 
-
+.gallery img {
+	padding-right:0;
+	}
 
 
 /**
@@ -2529,6 +2613,7 @@ footer.entry-meta {
 	color: White;
 	font-size: 14px;
 	text-align: center;
+	padding-top:10px;
 }
 
 .site-footer .widget-area,
@@ -2537,7 +2622,7 @@ footer.entry-meta {
 }
 
 .site-footer a {
-	color: #686758;
+	color: #5b5b5b;
 }
 
 .site-footer .sidebar-container {
@@ -2596,11 +2681,56 @@ footer.entry-meta {
 	margin: -10px auto 0;
 }
 
+/* Noam's additions */
+
+.social {
+	text-align:left;
+	width:200px;
+	position:absolute;
+	left:4%;
+	font-size:25px;
+}
+
+.social a { 
+	color:white;
+	position:relative;
+}
+
+.email {
+	position:absolute;
+	right:15%;
+	height:20px;
+	top:10%;
+	float:center;
+	margin:0 4% 0 auto;
+	
+}
+
+.phone {
+	text-align:right;
+	padding-left:10%;
+	position:absolute;
+	right:20px;
+	font-size:18px;
+
+}
+
+.email2 {
+	display:none;
+	right:45%;
+	margin: 0 auto;
+	}
 
 /**
  * 8.0 Media Queries
  * ----------------------------------------------------------------------------
  */
+
+@media (min-width: 1299px) {
+	.logo {
+		margin-left: 10%;
+	}
+}
 
 @media (max-width: 1599px) {
 	.site {
@@ -2662,7 +2792,13 @@ footer.entry-meta {
 	.site-main .widget-area {
 		margin-right: 60px;
 	}
+	
+	.gallery {
+		padding-left: 4%;
+	}
 }
+
+
 
 @media (max-width: 999px) {
 	.sidebar .entry-header,
@@ -2815,9 +2951,24 @@ footer.entry-meta {
 		padding-left: 35px;
 	}
 
+	/* Noam */
 	.logo {
 	height:90px;
 	margin-top:0px;
+	}
+
+	.foodmenu {
+	-webkit-column-count:1;
+	column-count:1;
+	-moz-column-count:1;
+	}
+
+	.col42{
+		width:100%;
+	}
+	
+	.col58 {
+		width:100%;
 	}
 
 	/* Small menu */
@@ -2825,7 +2976,7 @@ footer.entry-meta {
 		cursor: pointer;
 		display: inline-block;
 		font: 16px/1.3 "Source Sans Pro", Helvetica, sans-serif;
-		margin-left: 75%;
+		margin-left: 80%;
 		padding: 12px 0 12px 20px;
 		color:white;
 	}
@@ -2882,7 +3033,7 @@ footer.entry-meta {
 
 	.toggled-on .nav-menu li a:hover,
 	.toggled-on .nav-menu ul a:hover {
-		background-color: #db572f;
+		background-color: #404040;
 		color: #fff;
 	}
 
@@ -2968,6 +3119,28 @@ footer.entry-meta {
 		width: auto;
 	}
 }
+
+/* Noam */
+
+@media (max-width: 555px) {
+	.email {
+		display:none;
+	}
+	.email2 {
+		display:inline-block;
+		font-size: 25px;
+		position:absolute;
+		text-align:center;
+		padding-left:7%;
+		margin-top:-1%;		
+	}
+	
+	.email2 a {
+		color:white;
+	}
+}
+
+/* end Noam */
 
 /* Mobile devices */
 @media (max-width: 359px) {
@@ -3165,24 +3338,8 @@ footer.entry-meta {
 }
 
 
-/**
- * 10.0 Noam's additions
- * ----------------------------------------------------------------------------
- */
 
-.col42 {
-	width:42%;
-	padding:0 0 0 5%;
-	float:right;
-	text-align:center;
-	
-}
 
-.col58 {
-	width:58%;
-	padding:0 5% 0 5%;
-	float:left;
-}
 
 .animated{	animation-delay:0.2s;
 /**			-webkit-animation-delay:0.2s;
@@ -3230,3 +3387,7 @@ footer.entry-meta {
     100% { -webkit-transform: scale(1); }
 }
 
+#fancybox-content{border-color:white !important;}
+
+
+}
