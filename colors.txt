@@ -1,7 +1,7 @@
 Colors
 Black
 White
-Red
+#d70000 -Red
 #404040 - Grey
 #5b5b5b - lighter grey
 
