@@ -1051,15 +1051,11 @@ ul.nav-menu li:hover > ul,
 }
 
 	
-.col100 img {
-		position:relative;
-		padding:0 1%;
-		margin-bottom:4%;
-		margin-top:6%;
-		width:33%;
-		}
+.col100 dl {
+		max-width:30%;
+		} 
 		
-.col100 caption {
+/* .col100 caption {
 	background-color: rgba(0, 0, 0, 0.7);
 	box-sizing: border-box;
 	color: #fff;
@@ -1078,6 +1074,8 @@ ul.nav-menu li:hover > ul,
 	width: 100%;
 	opacity:1 /*Disable to make caption-clean*/
 }	
+
+*/
 		
 .foodmenu {
 	-webkit-column-count:2;
@@ -1283,6 +1281,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 
 footer.entry-meta {
+	display:none;
 	margin-top: 24px;
 }
 
@@ -3435,5 +3434,61 @@ footer.entry-meta {
 
 #fancybox-content{border-color:white !important;}
 
+.sidebanner {
+}
 
+.sidebanner img {
+margin-right:auto;
+margin-left: auto;
+}
+
+.sidebanner h3 {
+	text-align:center;
+	margin-right:auto;
+	margin-left: auto;
+	padding-right:10%;
+	font-size:35px;
+	margin-top:0;
+}
+
+.wpcf7 {
+	width:70%;
+	font-size:0.8em;
+	border: 3px dashed red;
+	padding:2% 2% !important;
+	margin-bottom:4% !important;
+
+	
+}
+
+.wpcf7 button,
+input,
+textarea {
+	border: 1px solid black;
+}
+
+.wpcf7 button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	background: #d70000; /* Old browsers */
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	display: inline-block;
+	padding: 11px 24px 10px;
+	text-decoration: none;
+	float:right;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus {
+	background: red; /* Old browsers */
+	outline: none;
 }
