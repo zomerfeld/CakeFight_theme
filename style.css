@@ -2765,6 +2765,9 @@ footer.entry-meta {
 	position:absolute;
 	right:20px;
 	font-size:18px;
+}
+.phone a {
+	color:white;
 
 }
 
@@ -3208,7 +3211,7 @@ footer.entry-meta {
 
 /* end Noam */
 
-/* Mobile devices */
+/* 	Mobile devices */
 @media (max-width: 359px) {
 	.gallery {
 		margin-left: 0;
@@ -3269,6 +3272,12 @@ footer.entry-meta {
 	.comment-content,
 	.comment-list .reply {
 		width: 100%;
+	}
+	
+	.phone a
+	{
+		text-align:right;
+		vertical-align:middle;
 	}
 }
 

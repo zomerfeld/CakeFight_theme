@@ -23,7 +23,7 @@
 		</div>
 		<div class="email2"> <a href="mailto:order@cakefightoakland.com" target="_blank"><i class="icon-envelope"></i> </a> </div>
 		<div class="phone">
-			<p>510-502-0597</p>
+			<p><a href="tel:1-510-502-0597">510-502-0597</a></p>
 		</div>
 		</div>
 		</footer><!-- #colophon -->
