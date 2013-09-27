@@ -40,8 +40,8 @@
 	-->
 
 			<div id="navbar" class="navbar">
-				<a href="/wordpress/">
-				<img id="logo" class="animated logo" src="/wordpress/wp-content/uploads/2013/09/logo_draft_1_cmass_500.png" alt="logo"/>
+				<a href="/">
+				<img id="logo" class="animated logo" src="/wp-content/uploads/sites/5/2013/09/logo_draft_1_cmass_500.png" alt="logo"/>
 				</a>
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<h3 class="menu-toggle"><?php _e( 'More', 'twentythirteen' ); ?></h3>
