@@ -2675,7 +2675,7 @@ footer.entry-meta {
 
 .site-footer .main-navigation {
 	background-color: #272727;
-}
+	}
 
 .site-footer .widget-area,
 .sidebar .site-footer {
@@ -2762,6 +2762,14 @@ footer.entry-meta {
 	position:relative;
 }
 
+.social p {
+	margin:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	display:inline-block;
+}
+
+
 .email {
 	position:absolute;
 	right:15%;
@@ -2783,6 +2791,14 @@ footer.entry-meta {
 	color:white;
 
 }
+
+.phone p {
+	margin:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	display:inline-block;
+}
+
 
 .email2 {
 	display:none;
