@@ -13,8 +13,8 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="main-navigation">	
 		<div class="social">
-			<p>	<a href="https://www.facebook.com/eatcakefight" ><i class="icon-facebook-sign"></i> </a>
-				<a href="https://twitter.com/cakefight" ><i class="icon-twitter"></i> </a>
+			<p>	<a href="https://www.facebook.com/eatcakefight" target="_blank"><i class="icon-facebook-sign"></i> </a>
+				<a href="https://twitter.com/cakefight" target="_blank"><i class="icon-twitter"></i> </a>
 				<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><i class="icon-pinterest-sign"></i> </a>
 			</p>
 		</div>
