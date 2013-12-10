@@ -978,7 +978,7 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .logo {
-	position:relative;
+	position:absolute;
 	left:0px;
 	max-width:300px;
 	z-index:2;
