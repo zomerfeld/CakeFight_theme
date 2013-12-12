@@ -117,7 +117,7 @@ body {
 	color: #141412;
 	line-height: 1.5;
 	margin: 0;
-	background: url('http://127.0.0.1/wp-content/themes/cakefight-child/irongrip.png') no-repeat center center fixed !important; 
+	background: url('./irongrip.png') no-repeat center center fixed !important; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
