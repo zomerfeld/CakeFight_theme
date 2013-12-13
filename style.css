@@ -117,7 +117,7 @@ body {
 	color: #141412;
 	line-height: 1.5;
 	margin: 0;
-	background: url('./irongrip.png') no-repeat center center fixed !important; 
+	background: url('./irongrip.png') center center fixed !important; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -910,7 +910,7 @@ div.nav-menu > ul {
 	margin: 0;
 	padding: 0 0 0 0;
 	text-align:right;
-	background:#131313;
+/*	background:#131313; */
 	float:right;
 	margin-bottom:10px;
 
@@ -2712,7 +2712,7 @@ footer.entry-meta {
 }
 
 .site-footer .main-navigation {
-	background-color: #131313;
+/*	background-color: #131313; */
 	}
 
 .site-footer .widget-area,
@@ -2721,7 +2721,7 @@ footer.entry-meta {
 }
 
 .site-footer a {
-	color: #5b5b5b;
+	color: rgb(231, 231, 231);
 }
 
 
@@ -2796,7 +2796,7 @@ footer.entry-meta {
 }
 
 .social a { 
-	color:white;
+	color: rgb(231, 231, 231);
 	position:relative;
 }
 
@@ -2826,7 +2826,7 @@ footer.entry-meta {
 	font-size:18px;
 }
 .phone a {
-	color:white;
+	color:rgb(231, 231, 231);
 
 }
 
